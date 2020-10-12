@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Freelancer - Start Bootstrap Theme</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet">
+        <!-- Fonts CSS-->
+        <link rel="stylesheet" href="css/heading.css">
+        <link rel="stylesheet" href="css/body.css">
+        <link href="css/body.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+            <div class="container"><a class="navbar-brand js-scroll-trigger" href="/clinicaveterinaria/index.html"">Clínica Veterinária</a>
+                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/clinicaveterinaria/index.html"">SERVIÇOS</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/clinicaveterinaria/index.html"">SOBRE A CRS</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/clinicaveterinaria/index.html"">AGENDAMENTOS</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle py-3 px-0 px-lg-3 rounded" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ACESSAR O SISTEMA
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="login.html"">FAZER LOGIN</a>
+                                <a class="dropdown-item" href="consulta.html"">CADASTRO PARA CONSULTAS</a>
+                                <a class="dropdown-item" href="animal.html"">CADASTRO DE ANIMAIS</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="tutor.html"">CADASTRO DE TUTORES</a>
+                                <a class="dropdown-item" href="veterinario.html"">CADASTRO DE VETERINÁRIOS</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="masthead bg-primary text-white text-center">
+            <div class="text-center">
+                <h2 class="page-section-heading text-secondary mb-0 d-inline-block">LOGIN DE VETERINÁRIOS COLABORADORES</h2>
+            </div>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="container d-flex align-items-center flex-column">
+                <form method="post" action="/clinicaveterinaria/LoginController"">
+                    <div class="form-group">
+                        <label for="cpflog">Insira seu CPF</label>
+                        <input type="text" class="form-control" id="cpflog" name="cpflog" placeholder="Insira o CPF">
+                        <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seus dados com ninguém.</small>
+                    </div> 
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input type="password" class="form-control" id="senha" name="senha" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label" for="exampleCheck1">Jamais divulgue sua senha a terceiros!</label>
+                    </div>
+                    <button type="submit" class="btn btn-secondary btn-lg btn-block">ACESSAR</button>
+                </form>
+            </div>
+        </header>
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row-justify-content-center">                   
+                    <!-- Footer About Text-->
+                    <div class="row-justify-content-center"">
+                        <h4 class="mb-4">Aplicação para cadastros - Veterinária CRS.</h4>
+                        <p class="pre-wrap lead mb-0">Aluno: Charles Robson de Sousa</p>
+                        <p class="pre-wrap lead mb-0">Coordenador: Professor Glauco Rocha</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <section class="copyright py-4 text-center text-white">
+            <div class="container"><small class="pre-wrap">Copyright © Faculdade de Tecnologia SENAC de Brasília, Análise e Desenvolvimento de Sistemas 5º Semestre - 2º/2020 </small></div>
+        </section>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
